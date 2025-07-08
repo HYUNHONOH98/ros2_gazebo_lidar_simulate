@@ -28,7 +28,7 @@ source /opt/ros/humble/setup.sh
 # 2. Clone the repo
 ```
 $ cd ~
-$ git clone https://github.com/HYUNHONOH98/ros2_gazebo_lidar_simulate.git .
+$ git clone https://github.com/HYUNHONOH98/ros2_gazebo_lidar_simulate.git
 ```
 # 3. ROS2 plugins setup
 ## 3.0. basic dependencies
