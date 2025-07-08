@@ -51,7 +51,23 @@ $ sudo apt install -y         \
     cmake                   \
     python3-colcon-common-extensions \
     vim
+
+$ sudo apt install \
+    ros-humble-gazebo-ros \
+    ros-humble-nav2-bringup \
+    ros-humble-robot-localization \
+    ros-humble-imu-filter-madgwick \
+    ros-humble-gazebo-ros2-control \
+    ros-humble-gazebo-plugins
 ```
+
+Install gazebo objects, and world files.
+```
+$ git clone http://github.com/osrf/gazebo_models
+$ git clone https://github.com/mlherd/Dataset-of-Gazebo-Worlds-Models-and-Maps
+```
+Move all the model files to include in the world to `~/.gazebo/models` directory.
+
 ## 3.1. jackal
 ```
 $ cd ~/ros2_gazebo_lidar_simulate/ws_jackal
