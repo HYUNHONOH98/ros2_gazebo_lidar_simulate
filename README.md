@@ -59,6 +59,12 @@ $ sudo apt install \
     ros-humble-imu-filter-madgwick \
     ros-humble-gazebo-ros2-control \
     ros-humble-gazebo-plugins
+
+$ sudo apt-get install \
+    ros-$ROS_DISTRO-velodyne-description \
+    ros-$ROS_DISTRO-interactive_marker_twist_server \
+    ros-$ROS_DISTRO-twist-mux
+
 ```
 
 Install gazebo objects, and world files.
